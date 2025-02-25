@@ -1,4 +1,4 @@
-package com.bridgelabz.employeepayrollapp;
+package com.bridgelabz.employeepayrollapp.controller;
 
 import org.springframework.web.bind.annotation.*;
 
