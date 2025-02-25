@@ -2,32 +2,42 @@ package com.bridgelabz.employeepayrollapp.controller;
 
 import org.springframework.web.bind.annotation.*;
 
+import com.bridgelabz.employeepayrollapp.services.EmployeePayrollService;
+import com.bridgelabz.employeepayrollapp.model.EmployeePayroll;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
+
 @RestController
 @RequestMapping("/employeepayrollservice")
 public class EmployeePayrollController {
 
+    @Autowired
+    private EmployeePayrollService service;
+
     @GetMapping("/")
-    public String getAllEmployees() {
-        return "Fetching all employees";
+    public List<EmployeePayroll> getAllEmployees() {
+        return service.getAllEmployees();
     }
 
     @GetMapping("/get/{id}")
-    public String getEmployeeById(@PathVariable int id) {
-        return "Fetching employee with ID: " + id;
+    public EmployeePayroll getEmployeeById(@PathVariable int id) {
+        return service.getEmployeeById(id);
     }
 
     @PostMapping("/create")
-    public String addEmployee(@RequestBody String employee) {
-        return "Adding new employee: " + employee;
+    public EmployeePayroll createEmployee(@RequestBody EmployeePayroll employee) {
+        return service.createEmployee(employee);
     }
 
     @PutMapping("/update/{id}")
-    public String updateEmployee(@PathVariable int id, @RequestBody String employee) {
-        return "Updating employee with ID " + id + " to: " + employee;
+    public EmployeePayroll updateEmployee(@PathVariable int id, @RequestBody EmployeePayroll employee) {
+        return service.updateEmployee(id, employee);
     }
 
     @DeleteMapping("/delete/{id}")
     public String deleteEmployee(@PathVariable int id) {
-        return "Deleting employee with ID: " + id;
+        return service.deleteEmployee(id) ? "Deleted Successfully" : "Employee Not Found";
     }
 }
