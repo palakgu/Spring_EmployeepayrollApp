@@ -5,13 +5,15 @@ import jakarta.validation.constraints.NotEmpty;
 import jakarta.validation.constraints.Pattern;
 
 
+import lombok.Data;
+@Data
 public class EmployeePayrollDTO {
     @NotEmpty(message = "Name cannot be empty")
     @Pattern(regexp = "^[A-Z][a-zA-Z\\s]+$", message = "Name should start with uppercase")
-    public String name;
+    private String name;
 
     @Min(value = 5000, message = "Salary should be at least 5000")
-    public long salary;
+    private long salary;
 
     public EmployeePayrollDTO(String name, long salary) {
         this.name = name;

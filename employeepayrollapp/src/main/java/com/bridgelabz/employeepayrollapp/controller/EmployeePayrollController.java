@@ -2,8 +2,8 @@ package com.bridgelabz.employeepayrollapp.controller;
 
 import org.springframework.web.bind.annotation.*;
 
-import com.bridgelabz.employeepayrollapp.services.EmployeePayrollService;
 import com.bridgelabz.employeepayrollapp.model.EmployeePayroll;
+import com.bridgelabz.employeepayrollapp.services.EmployeePayrollService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
