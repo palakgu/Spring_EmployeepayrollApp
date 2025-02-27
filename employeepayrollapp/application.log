@@ -143,3 +143,11 @@ Update your application's configuration. The following values are valid:
 2025-02-27T15:57:50.788+05:30  INFO 18236 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Started EmployeePayrollAppApplication in 4.086 seconds (process running for 4.556)
 2025-02-27T15:57:50.791+05:30  INFO 18236 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Payroll App Started in 'null' Environment!
 2025-02-27T15:57:50.793+05:30  INFO 18236 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Employee Payroll DB User is root
+2025-02-27T15:59:21.775+05:30  INFO 20420 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Starting EmployeePayrollAppApplication using Java 23.0.2 with PID 20420 (C:\Users\palak\OneDrive\Desktop\Employee Payroll App\employeepayrollapp\target\classes started by palak in C:\Users\palak\OneDrive\Desktop\Employee Payroll App\employeepayrollapp)
+2025-02-27T15:59:21.777+05:30 DEBUG 20420 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-02-27T15:59:21.778+05:30  INFO 20420 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : No active profile set, falling back to 1 default profile: "default"
+2025-02-27T15:59:25.031+05:30  WARN 20420 --- [EmployeePayrollApp] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-27T15:59:25.355+05:30  WARN 20420 --- [EmployeePayrollApp] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2025-02-27T15:59:25.393+05:30  INFO 20420 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Started EmployeePayrollAppApplication in 4.081 seconds (process running for 4.593)
+2025-02-27T15:59:25.396+05:30  INFO 20420 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Payroll App Started in 'COMMON' Environment!
+2025-02-27T15:59:25.398+05:30  INFO 20420 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Employee Payroll DB User is root
