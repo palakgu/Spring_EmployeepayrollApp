@@ -1,0 +1,434 @@
+2025-02-27 15:44:14 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'logging.level.com.bridgelabz' to org.springframework.boot.logging.LogLevel:
+
+    Property: logging.level.com.bridgelabz
+    Value: "DEBUG  # Debug logs for your application"
+    Origin: class path resource [application.properties] - 13:30
+    Reason: failed to convert java.lang.String to org.springframework.boot.logging.LogLevel (caused by java.lang.IllegalArgumentException: No enum constant org.springframework.boot.logging.LogLevel.DEBUG  # Debug logs for your application)
+
+Action:
+
+Update your application's configuration. The following values are valid:
+
+    DEBUG
+    ERROR
+    FATAL
+    INFO
+    OFF
+    TRACE
+    WARN
+
+2025-02-27 15:44:18 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'logging.level.com.bridgelabz' to org.springframework.boot.logging.LogLevel:
+
+    Property: logging.level.com.bridgelabz
+    Value: "DEBUG  # Debug logs for your application"
+    Origin: class path resource [application.properties] - 13:30
+    Reason: failed to convert java.lang.String to org.springframework.boot.logging.LogLevel (caused by java.lang.IllegalArgumentException: No enum constant org.springframework.boot.logging.LogLevel.DEBUG  # Debug logs for your application)
+
+Action:
+
+Update your application's configuration. The following values are valid:
+
+    DEBUG
+    ERROR
+    FATAL
+    INFO
+    OFF
+    TRACE
+    WARN
+
+2025-02-27 15:48:06 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'logging.level.com.bridgelabz' to org.springframework.boot.logging.LogLevel:
+
+    Property: logging.level.com.bridgelabz
+    Value: "DEBUG  # Debug logs for your application"
+    Origin: class path resource [application.properties] - 22:30
+    Reason: failed to convert java.lang.String to org.springframework.boot.logging.LogLevel (caused by java.lang.IllegalArgumentException: No enum constant org.springframework.boot.logging.LogLevel.DEBUG  # Debug logs for your application)
+
+Action:
+
+Update your application's configuration. The following values are valid:
+
+    DEBUG
+    ERROR
+    FATAL
+    INFO
+    OFF
+    TRACE
+    WARN
+
+2025-02-27 15:51:17 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'logging.level.com.bridgelabz' to org.springframework.boot.logging.LogLevel:
+
+    Property: logging.level.com.bridgelabz
+    Value: "DEBUG  # Debug logs for your application"
+    Origin: class path resource [application.properties] - 22:30
+    Reason: failed to convert java.lang.String to org.springframework.boot.logging.LogLevel (caused by java.lang.IllegalArgumentException: No enum constant org.springframework.boot.logging.LogLevel.DEBUG  # Debug logs for your application)
+
+Action:
+
+Update your application's configuration. The following values are valid:
+
+    DEBUG
+    ERROR
+    FATAL
+    INFO
+    OFF
+    TRACE
+    WARN
+
+2025-02-27 15:51:55 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-27 15:51:56 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+2025-02-27 15:53:48 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'logging.level.com.bridgelabz' to org.springframework.boot.logging.LogLevel:
+
+    Property: logging.level.com.bridgelabz
+    Value: "DEBUG  # Debug logs for your application"
+    Origin: class path resource [application.properties] - 22:30
+    Reason: failed to convert java.lang.String to org.springframework.boot.logging.LogLevel (caused by java.lang.IllegalArgumentException: No enum constant org.springframework.boot.logging.LogLevel.DEBUG  # Debug logs for your application)
+
+Action:
+
+Update your application's configuration. The following values are valid:
+
+    DEBUG
+    ERROR
+    FATAL
+    INFO
+    OFF
+    TRACE
+    WARN
+
+2025-02-27T15:57:47.162+05:30  INFO 18236 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Starting EmployeePayrollAppApplication using Java 23.0.2 with PID 18236 (C:\Users\palak\OneDrive\Desktop\Employee Payroll App\employeepayrollapp\target\classes started by palak in C:\Users\palak\OneDrive\Desktop\Employee Payroll App\employeepayrollapp)
+2025-02-27T15:57:47.164+05:30 DEBUG 18236 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-02-27T15:57:47.165+05:30  INFO 18236 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : No active profile set, falling back to 1 default profile: "default"
+2025-02-27T15:57:50.426+05:30  WARN 18236 --- [EmployeePayrollApp] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-27T15:57:50.751+05:30  WARN 18236 --- [EmployeePayrollApp] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2025-02-27T15:57:50.788+05:30  INFO 18236 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Started EmployeePayrollAppApplication in 4.086 seconds (process running for 4.556)
+2025-02-27T15:57:50.791+05:30  INFO 18236 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Payroll App Started in 'null' Environment!
+2025-02-27T15:57:50.793+05:30  INFO 18236 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Employee Payroll DB User is root
+2025-02-27T15:59:21.775+05:30  INFO 20420 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Starting EmployeePayrollAppApplication using Java 23.0.2 with PID 20420 (C:\Users\palak\OneDrive\Desktop\Employee Payroll App\employeepayrollapp\target\classes started by palak in C:\Users\palak\OneDrive\Desktop\Employee Payroll App\employeepayrollapp)
+2025-02-27T15:59:21.777+05:30 DEBUG 20420 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-02-27T15:59:21.778+05:30  INFO 20420 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : No active profile set, falling back to 1 default profile: "default"
+2025-02-27T15:59:25.031+05:30  WARN 20420 --- [EmployeePayrollApp] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-27T15:59:25.355+05:30  WARN 20420 --- [EmployeePayrollApp] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2025-02-27T15:59:25.393+05:30  INFO 20420 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Started EmployeePayrollAppApplication in 4.081 seconds (process running for 4.593)
+2025-02-27T15:59:25.396+05:30  INFO 20420 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Payroll App Started in 'COMMON' Environment!
+2025-02-27T15:59:25.398+05:30  INFO 20420 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Employee Payroll DB User is root
+2025-02-27T16:11:36.334+05:30 ERROR 20128 --- [EmployeePayrollApp] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'logging.level.com.bridgelabz' to org.springframework.boot.logging.LogLevel:
+
+    Property: logging.level.com.bridgelabz
+    Value: "DEBUG  # Debug logs for your application"
+    Origin: class path resource [application.properties] - 18:30
+    Reason: failed to convert java.lang.String to org.springframework.boot.logging.LogLevel (caused by java.lang.IllegalArgumentException: No enum constant org.springframework.boot.logging.LogLevel.DEBUG  # Debug logs for your application)
+
+Action:
+
+Update your application's configuration. The following values are valid:
+
+    DEBUG
+    ERROR
+    FATAL
+    INFO
+    OFF
+    TRACE
+    WARN
+
+2025-02-27T16:12:05.281+05:30  INFO 10440 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Starting EmployeePayrollAppApplication using Java 23.0.2 with PID 10440 (C:\Users\palak\OneDrive\Desktop\Employee Payroll App\employeepayrollapp\target\classes started by palak in C:\Users\palak\OneDrive\Desktop\Employee Payroll App\employeepayrollapp)
+2025-02-27T16:12:05.283+05:30 DEBUG 10440 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-02-27T16:12:05.284+05:30  INFO 10440 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : No active profile set, falling back to 1 default profile: "default"
+2025-02-27T16:12:08.795+05:30  WARN 10440 --- [EmployeePayrollApp] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-27T16:12:09.161+05:30  WARN 10440 --- [EmployeePayrollApp] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2025-02-27T16:12:09.196+05:30  INFO 10440 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Started EmployeePayrollAppApplication in 4.402 seconds (process running for 4.885)
+2025-02-27T16:12:09.199+05:30  INFO 10440 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Payroll App Started in 'null' Environment!
+2025-02-27T16:12:09.201+05:30  INFO 10440 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Employee Payroll DB User is root
+2025-02-27T16:13:14.611+05:30  INFO 11696 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Starting EmployeePayrollAppApplication using Java 23.0.2 with PID 11696 (C:\Users\palak\OneDrive\Desktop\Employee Payroll App\employeepayrollapp\target\classes started by palak in C:\Users\palak\OneDrive\Desktop\Employee Payroll App\employeepayrollapp)
+2025-02-27T16:13:14.613+05:30 DEBUG 11696 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-02-27T16:13:14.613+05:30  INFO 11696 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : No active profile set, falling back to 1 default profile: "default"
+2025-02-27T16:13:18.027+05:30  WARN 11696 --- [EmployeePayrollApp] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-27T16:13:18.423+05:30  WARN 11696 --- [EmployeePayrollApp] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2025-02-27T16:13:18.492+05:30  INFO 11696 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Started EmployeePayrollAppApplication in 4.338 seconds (process running for 4.831)
+2025-02-27T16:13:18.497+05:30  INFO 11696 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Payroll App Started in 'null' Environment!
+2025-02-27T16:13:18.499+05:30  INFO 11696 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Employee Payroll DB User is root
+2025-02-27T16:15:24.712+05:30  INFO 2980 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Starting EmployeePayrollAppApplication using Java 23.0.2 with PID 2980 (C:\Users\palak\OneDrive\Desktop\Employee Payroll App\employeepayrollapp\target\classes started by palak in C:\Users\palak\OneDrive\Desktop\Employee Payroll App\employeepayrollapp)
+2025-02-27T16:15:24.714+05:30 DEBUG 2980 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-02-27T16:15:24.716+05:30  INFO 2980 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : No active profile set, falling back to 1 default profile: "default"
+2025-02-27T16:15:28.172+05:30  WARN 2980 --- [EmployeePayrollApp] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-27T16:15:28.530+05:30  WARN 2980 --- [EmployeePayrollApp] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2025-02-27T16:15:28.569+05:30  INFO 2980 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Started EmployeePayrollAppApplication in 4.344 seconds (process running for 4.863)
+2025-02-27T16:15:28.572+05:30  INFO 2980 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Payroll App Started in 'null' Environment!
+2025-02-27T16:15:28.573+05:30  INFO 2980 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Employee Payroll DB User is root
+2025-02-27T16:16:23.653+05:30  INFO 7856 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Starting EmployeePayrollAppApplication using Java 23.0.2 with PID 7856 (C:\Users\palak\OneDrive\Desktop\Employee Payroll App\employeepayrollapp\target\classes started by palak in C:\Users\palak\OneDrive\Desktop\Employee Payroll App\employeepayrollapp)
+2025-02-27T16:16:23.655+05:30 DEBUG 7856 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-02-27T16:16:23.656+05:30  INFO 7856 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : No active profile set, falling back to 1 default profile: "default"
+2025-02-27T16:16:26.927+05:30  WARN 7856 --- [EmployeePayrollApp] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-27T16:16:27.274+05:30  WARN 7856 --- [EmployeePayrollApp] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2025-02-27T16:16:27.310+05:30  INFO 7856 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Started EmployeePayrollAppApplication in 4.138 seconds (process running for 4.649)
+2025-02-27T16:16:27.315+05:30  INFO 7856 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Payroll App Started in 'null' Environment!
+2025-02-27T16:16:27.316+05:30  INFO 7856 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Employee Payroll DB User is root
+2025-02-27T16:19:01.519+05:30  INFO 12804 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Starting EmployeePayrollAppApplication using Java 23.0.2 with PID 12804 (C:\Users\palak\OneDrive\Desktop\Employee Payroll App\employeepayrollapp\target\classes started by palak in C:\Users\palak\OneDrive\Desktop\Employee Payroll App\employeepayrollapp)
+2025-02-27T16:19:01.521+05:30 DEBUG 12804 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-02-27T16:19:01.522+05:30  INFO 12804 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : No active profile set, falling back to 1 default profile: "default"
+2025-02-27T16:19:04.827+05:30  WARN 12804 --- [EmployeePayrollApp] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-27T16:19:05.153+05:30  WARN 12804 --- [EmployeePayrollApp] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2025-02-27T16:19:05.211+05:30  INFO 12804 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Started EmployeePayrollAppApplication in 4.164 seconds (process running for 4.675)
+2025-02-27T16:19:05.217+05:30  INFO 12804 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Payroll App Started in 'null' Environment!
+2025-02-27T16:19:05.221+05:30  INFO 12804 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Employee Payroll DB User is root
+2025-02-27T16:20:23.311+05:30  INFO 5672 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Starting EmployeePayrollAppApplication using Java 23.0.2 with PID 5672 (C:\Users\palak\OneDrive\Desktop\Employee Payroll App\employeepayrollapp\target\classes started by palak in C:\Users\palak\OneDrive\Desktop\Employee Payroll App\employeepayrollapp)
+2025-02-27T16:20:23.313+05:30 DEBUG 5672 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-02-27T16:20:23.314+05:30  INFO 5672 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : No active profile set, falling back to 1 default profile: "default"
+2025-02-27T16:20:27.535+05:30  WARN 5672 --- [EmployeePayrollApp] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-27T16:20:27.924+05:30  WARN 5672 --- [EmployeePayrollApp] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2025-02-27T16:20:27.970+05:30  INFO 5672 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Started EmployeePayrollAppApplication in 5.187 seconds (process running for 6.363)
+2025-02-27T16:20:27.974+05:30  INFO 5672 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Payroll App Started in 'null' Environment!
+2025-02-27T16:20:27.976+05:30  INFO 5672 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Employee Payroll DB User is root
+2025-02-27T16:20:34.081+05:30  INFO 9480 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Starting EmployeePayrollAppApplication using Java 23.0.2 with PID 9480 (C:\Users\palak\OneDrive\Desktop\Employee Payroll App\employeepayrollapp\target\classes started by palak in C:\Users\palak\OneDrive\Desktop\Employee Payroll App\employeepayrollapp)
+2025-02-27T16:20:34.082+05:30 DEBUG 9480 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-02-27T16:20:34.083+05:30  INFO 9480 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : No active profile set, falling back to 1 default profile: "default"
+2025-02-27T16:20:37.344+05:30  WARN 9480 --- [EmployeePayrollApp] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-27T16:20:37.677+05:30  WARN 9480 --- [EmployeePayrollApp] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2025-02-27T16:20:37.715+05:30  INFO 9480 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Started EmployeePayrollAppApplication in 4.095 seconds (process running for 4.626)
+2025-02-27T16:20:37.718+05:30  INFO 9480 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Payroll App Started in 'null' Environment!
+2025-02-27T16:20:37.720+05:30  INFO 9480 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Employee Payroll DB User is root
+2025-02-27T16:21:54.220+05:30  INFO 17000 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Starting EmployeePayrollAppApplication using Java 23.0.2 with PID 17000 (C:\Users\palak\OneDrive\Desktop\Employee Payroll App\employeepayrollapp\target\classes started by palak in C:\Users\palak\OneDrive\Desktop\Employee Payroll App\employeepayrollapp)
+2025-02-27T16:21:54.221+05:30 DEBUG 17000 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-02-27T16:21:54.222+05:30  INFO 17000 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : No active profile set, falling back to 1 default profile: "default"
+2025-02-27T16:21:57.462+05:30  WARN 17000 --- [EmployeePayrollApp] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-27T16:21:57.782+05:30  WARN 17000 --- [EmployeePayrollApp] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2025-02-27T16:21:57.820+05:30  INFO 17000 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Started EmployeePayrollAppApplication in 4.054 seconds (process running for 4.55)
+2025-02-27T16:21:57.823+05:30  INFO 17000 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Payroll App Started in 'null' Environment!
+2025-02-27T16:21:57.825+05:30  INFO 17000 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Employee Payroll DB User is root
+2025-02-27T16:24:40.424+05:30  INFO 22084 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Starting EmployeePayrollAppApplication using Java 23.0.2 with PID 22084 (C:\Users\palak\OneDrive\Desktop\Employee Payroll App\employeepayrollapp\target\classes started by palak in C:\Users\palak\OneDrive\Desktop\Employee Payroll App\employeepayrollapp)
+2025-02-27T16:24:40.426+05:30 DEBUG 22084 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-02-27T16:24:40.427+05:30  INFO 22084 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : No active profile set, falling back to 1 default profile: "default"
+2025-02-27T16:24:43.689+05:30  WARN 22084 --- [EmployeePayrollApp] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-27T16:24:44.011+05:30  WARN 22084 --- [EmployeePayrollApp] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2025-02-27T16:24:44.050+05:30  INFO 22084 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Started EmployeePayrollAppApplication in 4.096 seconds (process running for 4.599)
+2025-02-27T16:24:44.054+05:30  INFO 22084 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Payroll App Started in 'null' Environment!
+2025-02-27T16:24:44.055+05:30  INFO 22084 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Employee Payroll DB User is root
+2025-02-27T16:26:15.314+05:30  INFO 22084 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Starting EmployeePayrollAppApplication using Java 23.0.2 with PID 22084 (C:\Users\palak\OneDrive\Desktop\Employee Payroll App\employeepayrollapp\target\classes started by palak in C:\Users\palak\OneDrive\Desktop\Employee Payroll App\employeepayrollapp)
+2025-02-27T16:26:15.315+05:30 DEBUG 22084 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-02-27T16:26:15.315+05:30  INFO 22084 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : No active profile set, falling back to 1 default profile: "default"
+2025-02-27T16:26:15.839+05:30  WARN 22084 --- [EmployeePayrollApp] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-27T16:26:15.931+05:30  WARN 22084 --- [EmployeePayrollApp] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2025-02-27T16:26:15.948+05:30  INFO 22084 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Started EmployeePayrollAppApplication in 0.671 seconds (process running for 96.496)
+2025-02-27T16:26:15.951+05:30  INFO 22084 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Payroll App Started in 'null' Environment!
+2025-02-27T16:26:15.952+05:30  INFO 22084 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Employee Payroll DB User is root
+2025-02-27T16:27:11.516+05:30  INFO 22084 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Starting EmployeePayrollAppApplication using Java 23.0.2 with PID 22084 (C:\Users\palak\OneDrive\Desktop\Employee Payroll App\employeepayrollapp\target\classes started by palak in C:\Users\palak\OneDrive\Desktop\Employee Payroll App\employeepayrollapp)
+2025-02-27T16:27:11.516+05:30 DEBUG 22084 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-02-27T16:27:11.516+05:30  INFO 22084 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : No active profile set, falling back to 1 default profile: "default"
+2025-02-27T16:27:11.854+05:30  WARN 22084 --- [EmployeePayrollApp] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Failed to initialize dependency 'dataSourceScriptDatabaseInitializer' of LoadTimeWeaverAware bean 'entityManagerFactory': Error creating bean with name 'dataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/autoconfigure/sql/init/DataSourceInitializationConfiguration.class]: Unsatisfied dependency expressed through method 'dataSourceScriptDatabaseInitializer' parameter 0: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception with message: Failed to determine a suitable driver class
+2025-02-27T16:27:11.881+05:30 ERROR 22084 --- [EmployeePayrollApp] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2025-02-27T16:27:44.269+05:30  INFO 18372 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Starting EmployeePayrollAppApplication using Java 23.0.2 with PID 18372 (C:\Users\palak\OneDrive\Desktop\Employee Payroll App\employeepayrollapp\target\classes started by palak in C:\Users\palak\OneDrive\Desktop\Employee Payroll App\employeepayrollapp)
+2025-02-27T16:27:44.271+05:30 DEBUG 18372 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-02-27T16:27:44.272+05:30  INFO 18372 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : No active profile set, falling back to 1 default profile: "default"
+2025-02-27T16:27:47.600+05:30 ERROR 18372 --- [EmployeePayrollApp] [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : Access denied for user 'palak'@'localhost' (using password: NO)
+2025-02-27T16:27:49.408+05:30 ERROR 18372 --- [EmployeePayrollApp] [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : Access denied for user 'palak'@'localhost' (using password: NO)
+2025-02-27T16:27:49.411+05:30 ERROR 18372 --- [EmployeePayrollApp] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Failed to initialize JPA EntityManagerFactory: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.GenericJDBCException: Unable to open JDBC Connection for DDL execution [Access denied for user 'palak'@'localhost' (using password: NO)] [n/a]
+2025-02-27T16:27:49.411+05:30  WARN 18372 --- [EmployeePayrollApp] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.GenericJDBCException: Unable to open JDBC Connection for DDL execution [Access denied for user 'palak'@'localhost' (using password: NO)] [n/a]
+2025-02-27T16:27:49.442+05:30 ERROR 18372 --- [EmployeePayrollApp] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.GenericJDBCException: Unable to open JDBC Connection for DDL execution [Access denied for user 'palak'@'localhost' (using password: NO)] [n/a]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1812) ~[spring-beans-6.2.3.jar:6.2.3]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601) ~[spring-beans-6.2.3.jar:6.2.3]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523) ~[spring-beans-6.2.3.jar:6.2.3]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.3.jar:6.2.3]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:346) ~[spring-beans-6.2.3.jar:6.2.3]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.3.jar:6.2.3]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207) ~[spring-beans-6.2.3.jar:6.2.3]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:970) ~[spring-context-6.2.3.jar:6.2.3]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627) ~[spring-context-6.2.3.jar:6.2.3]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.4.3.jar:3.4.3]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.4.3.jar:3.4.3]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.4.3.jar:3.4.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.4.3.jar:3.4.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.4.3.jar:3.4.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.4.3.jar:3.4.3]
+	at com.bridgelabz.employeepayrollapp.EmployeePayrollAppApplication.main(EmployeePayrollAppApplication.java:14) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.4.3.jar:3.4.3]
+Caused by: jakarta.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.GenericJDBCException: Unable to open JDBC Connection for DDL execution [Access denied for user 'palak'@'localhost' (using password: NO)] [n/a]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:431) ~[spring-orm-6.2.3.jar:6.2.3]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:400) ~[spring-orm-6.2.3.jar:6.2.3]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366) ~[spring-orm-6.2.3.jar:6.2.3]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1859) ~[spring-beans-6.2.3.jar:6.2.3]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1808) ~[spring-beans-6.2.3.jar:6.2.3]
+	... 18 common frames omitted
+Caused by: org.hibernate.exception.GenericJDBCException: Unable to open JDBC Connection for DDL execution [Access denied for user 'palak'@'localhost' (using password: NO)] [n/a]
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:63) ~[hibernate-core-6.6.8.Final.jar:6.6.8.Final]
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:108) ~[hibernate-core-6.6.8.Final.jar:6.6.8.Final]
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:94) ~[hibernate-core-6.6.8.Final.jar:6.6.8.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection(DdlTransactionIsolatorNonJtaImpl.java:74) ~[hibernate-core-6.6.8.Final.jar:6.6.8.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection(DdlTransactionIsolatorNonJtaImpl.java:39) ~[hibernate-core-6.6.8.Final.jar:6.6.8.Final]
+	at org.hibernate.tool.schema.internal.exec.ImprovedExtractionContextImpl.getJdbcConnection(ImprovedExtractionContextImpl.java:63) ~[hibernate-core-6.6.8.Final.jar:6.6.8.Final]
+	at org.hibernate.tool.schema.internal.exec.ImprovedExtractionContextImpl.getJdbcDatabaseMetaData(ImprovedExtractionContextImpl.java:70) ~[hibernate-core-6.6.8.Final.jar:6.6.8.Final]
+	at org.hibernate.tool.schema.extract.internal.InformationExtractorJdbcDatabaseMetaDataImpl.processTableResultSet(InformationExtractorJdbcDatabaseMetaDataImpl.java:65) ~[hibernate-core-6.6.8.Final.jar:6.6.8.Final]
+	at org.hibernate.tool.schema.extract.internal.AbstractInformationExtractorImpl.getTables(AbstractInformationExtractorImpl.java:570) ~[hibernate-core-6.6.8.Final.jar:6.6.8.Final]
+	at org.hibernate.tool.schema.extract.internal.DatabaseInformationImpl.getTablesInformation(DatabaseInformationImpl.java:122) ~[hibernate-core-6.6.8.Final.jar:6.6.8.Final]
+	at org.hibernate.tool.schema.internal.GroupedSchemaMigratorImpl.performTablesMigration(GroupedSchemaMigratorImpl.java:72) ~[hibernate-core-6.6.8.Final.jar:6.6.8.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:233) ~[hibernate-core-6.6.8.Final.jar:6.6.8.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:112) ~[hibernate-core-6.6.8.Final.jar:6.6.8.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:280) ~[hibernate-core-6.6.8.Final.jar:6.6.8.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:144) ~[hibernate-core-6.6.8.Final.jar:6.6.8.Final]
+	at java.base/java.util.HashMap.forEach(HashMap.java:1430) ~[na:na]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:141) ~[hibernate-core-6.6.8.Final.jar:6.6.8.Final]
+	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37) ~[hibernate-core-6.6.8.Final.jar:6.6.8.Final]
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35) ~[hibernate-core-6.6.8.Final.jar:6.6.8.Final]
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:324) ~[hibernate-core-6.6.8.Final.jar:6.6.8.Final]
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:463) ~[hibernate-core-6.6.8.Final.jar:6.6.8.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1517) ~[hibernate-core-6.6.8.Final.jar:6.6.8.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66) ~[spring-orm-6.2.3.jar:6.2.3]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390) ~[spring-orm-6.2.3.jar:6.2.3]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:419) ~[spring-orm-6.2.3.jar:6.2.3]
+	... 22 common frames omitted
+Caused by: java.sql.SQLException: Access denied for user 'palak'@'localhost' (using password: NO)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:130) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:825) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:446) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:239) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:188) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:120) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:360) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:202) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:461) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:550) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:98) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:111) ~[HikariCP-5.1.0.jar:na]
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:126) ~[hibernate-core-6.6.8.Final.jar:6.6.8.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:467) ~[hibernate-core-6.6.8.Final.jar:6.6.8.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection(DdlTransactionIsolatorNonJtaImpl.java:46) ~[hibernate-core-6.6.8.Final.jar:6.6.8.Final]
+	... 43 common frames omitted
+
+2025-02-27T16:28:14.737+05:30  INFO 5680 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Starting EmployeePayrollAppApplication using Java 23.0.2 with PID 5680 (C:\Users\palak\OneDrive\Desktop\Employee Payroll App\employeepayrollapp\target\classes started by palak in C:\Users\palak\OneDrive\Desktop\Employee Payroll App\employeepayrollapp)
+2025-02-27T16:28:14.739+05:30 DEBUG 5680 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-02-27T16:28:14.739+05:30  INFO 5680 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : No active profile set, falling back to 1 default profile: "default"
+2025-02-27T16:28:18.000+05:30  WARN 5680 --- [EmployeePayrollApp] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-27T16:28:18.344+05:30  WARN 5680 --- [EmployeePayrollApp] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2025-02-27T16:28:18.381+05:30  INFO 5680 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Started EmployeePayrollAppApplication in 4.151 seconds (process running for 4.626)
+2025-02-27T16:28:18.386+05:30  INFO 5680 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Payroll App Started in 'null' Environment!
+2025-02-27T16:28:18.388+05:30  INFO 5680 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Employee Payroll DB User is root
+2025-02-27 16:28:57 [restartedMain] INFO  c.b.e.EmployeepayrollappApplication - Starting EmployeepayrollappApplication using Java 23.0.2 with PID 1440 (C:\Users\palak\OneDrive\Desktop\Employee Payroll App\employeepayrollapp\target\classes started by palak in C:\Users\palak\OneDrive\Desktop\Employee Payroll App\employeepayrollapp)
+2025-02-27 16:28:57 [restartedMain] DEBUG c.b.e.EmployeepayrollappApplication - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-02-27 16:28:57 [restartedMain] INFO  c.b.e.EmployeepayrollappApplication - No active profile set, falling back to 1 default profile: "default"
+2025-02-27 16:28:59 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-27 16:28:59 [restartedMain] INFO  c.b.e.EmployeepayrollappApplication - Started EmployeepayrollappApplication in 2.001 seconds (process running for 186022.534)
+2025-02-27T16:28:59.973+05:30  INFO 17756 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Starting EmployeePayrollAppApplication using Java 23.0.2 with PID 17756 (C:\Users\palak\OneDrive\Desktop\Employee Payroll App\employeepayrollapp\target\classes started by palak in C:\Users\palak\OneDrive\Desktop\Employee Payroll App\employeepayrollapp)
+2025-02-27T16:28:59.976+05:30 DEBUG 17756 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-02-27T16:28:59.977+05:30  INFO 17756 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : No active profile set, falling back to 1 default profile: "default"
+2025-02-27T16:29:03.480+05:30  WARN 17756 --- [EmployeePayrollApp] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-27T16:29:03.803+05:30  WARN 17756 --- [EmployeePayrollApp] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2025-02-27T16:29:03.818+05:30  WARN 17756 --- [EmployeePayrollApp] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2025-02-27T16:29:03.866+05:30 ERROR 17756 --- [EmployeePayrollApp] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2025-02-27T16:29:14.452+05:30  INFO 12328 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Starting EmployeePayrollAppApplication using Java 23.0.2 with PID 12328 (C:\Users\palak\OneDrive\Desktop\Employee Payroll App\employeepayrollapp\target\classes started by palak in C:\Users\palak\OneDrive\Desktop\Employee Payroll App\employeepayrollapp)
+2025-02-27T16:29:14.456+05:30 DEBUG 12328 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-02-27T16:29:14.457+05:30  INFO 12328 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : No active profile set, falling back to 1 default profile: "default"
+2025-02-27T16:29:17.941+05:30  WARN 12328 --- [EmployeePayrollApp] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-27T16:29:18.272+05:30  WARN 12328 --- [EmployeePayrollApp] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2025-02-27T16:29:18.287+05:30  WARN 12328 --- [EmployeePayrollApp] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2025-02-27T16:29:18.327+05:30 ERROR 12328 --- [EmployeePayrollApp] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2025-02-27T16:29:50.239+05:30  INFO 5268 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Starting EmployeePayrollAppApplication using Java 23.0.2 with PID 5268 (C:\Users\palak\OneDrive\Desktop\Employee Payroll App\employeepayrollapp\target\classes started by palak in C:\Users\palak\OneDrive\Desktop\Employee Payroll App\employeepayrollapp)
+2025-02-27T16:29:50.241+05:30 DEBUG 5268 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-02-27T16:29:50.242+05:30  INFO 5268 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : No active profile set, falling back to 1 default profile: "default"
+2025-02-27T16:29:53.556+05:30  WARN 5268 --- [EmployeePayrollApp] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-27T16:29:53.881+05:30  WARN 5268 --- [EmployeePayrollApp] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2025-02-27T16:29:53.921+05:30  INFO 5268 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Started EmployeePayrollAppApplication in 4.143 seconds (process running for 4.657)
+2025-02-27T16:29:53.924+05:30  INFO 5268 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Payroll App Started in 'Default' Environment!
+2025-02-27T16:29:53.926+05:30  INFO 5268 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Employee Payroll DB User is root
+2025-02-27T16:30:19.983+05:30  INFO 7520 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Starting EmployeePayrollAppApplication using Java 23.0.2 with PID 7520 (C:\Users\palak\OneDrive\Desktop\Employee Payroll App\employeepayrollapp\target\classes started by palak in C:\Users\palak\OneDrive\Desktop\Employee Payroll App\employeepayrollapp)
+2025-02-27T16:30:19.985+05:30 DEBUG 7520 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-02-27T16:30:19.986+05:30  INFO 7520 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : No active profile set, falling back to 1 default profile: "default"
+2025-02-27T16:30:23.228+05:30  WARN 7520 --- [EmployeePayrollApp] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-27T16:30:23.541+05:30  WARN 7520 --- [EmployeePayrollApp] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2025-02-27T16:30:23.583+05:30  INFO 7520 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Started EmployeePayrollAppApplication in 4.055 seconds (process running for 4.544)
+2025-02-27T16:30:23.587+05:30  INFO 7520 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Payroll App Started in 'null' Environment!
+2025-02-27T16:30:23.588+05:30  INFO 7520 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Employee Payroll DB User is root
