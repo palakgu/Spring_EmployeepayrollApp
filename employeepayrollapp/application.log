@@ -1,0 +1,145 @@
+2025-02-27 15:44:14 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'logging.level.com.bridgelabz' to org.springframework.boot.logging.LogLevel:
+
+    Property: logging.level.com.bridgelabz
+    Value: "DEBUG  # Debug logs for your application"
+    Origin: class path resource [application.properties] - 13:30
+    Reason: failed to convert java.lang.String to org.springframework.boot.logging.LogLevel (caused by java.lang.IllegalArgumentException: No enum constant org.springframework.boot.logging.LogLevel.DEBUG  # Debug logs for your application)
+
+Action:
+
+Update your application's configuration. The following values are valid:
+
+    DEBUG
+    ERROR
+    FATAL
+    INFO
+    OFF
+    TRACE
+    WARN
+
+2025-02-27 15:44:18 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'logging.level.com.bridgelabz' to org.springframework.boot.logging.LogLevel:
+
+    Property: logging.level.com.bridgelabz
+    Value: "DEBUG  # Debug logs for your application"
+    Origin: class path resource [application.properties] - 13:30
+    Reason: failed to convert java.lang.String to org.springframework.boot.logging.LogLevel (caused by java.lang.IllegalArgumentException: No enum constant org.springframework.boot.logging.LogLevel.DEBUG  # Debug logs for your application)
+
+Action:
+
+Update your application's configuration. The following values are valid:
+
+    DEBUG
+    ERROR
+    FATAL
+    INFO
+    OFF
+    TRACE
+    WARN
+
+2025-02-27 15:48:06 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'logging.level.com.bridgelabz' to org.springframework.boot.logging.LogLevel:
+
+    Property: logging.level.com.bridgelabz
+    Value: "DEBUG  # Debug logs for your application"
+    Origin: class path resource [application.properties] - 22:30
+    Reason: failed to convert java.lang.String to org.springframework.boot.logging.LogLevel (caused by java.lang.IllegalArgumentException: No enum constant org.springframework.boot.logging.LogLevel.DEBUG  # Debug logs for your application)
+
+Action:
+
+Update your application's configuration. The following values are valid:
+
+    DEBUG
+    ERROR
+    FATAL
+    INFO
+    OFF
+    TRACE
+    WARN
+
+2025-02-27 15:51:17 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'logging.level.com.bridgelabz' to org.springframework.boot.logging.LogLevel:
+
+    Property: logging.level.com.bridgelabz
+    Value: "DEBUG  # Debug logs for your application"
+    Origin: class path resource [application.properties] - 22:30
+    Reason: failed to convert java.lang.String to org.springframework.boot.logging.LogLevel (caused by java.lang.IllegalArgumentException: No enum constant org.springframework.boot.logging.LogLevel.DEBUG  # Debug logs for your application)
+
+Action:
+
+Update your application's configuration. The following values are valid:
+
+    DEBUG
+    ERROR
+    FATAL
+    INFO
+    OFF
+    TRACE
+    WARN
+
+2025-02-27 15:51:55 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-27 15:51:56 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+2025-02-27 15:53:48 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'logging.level.com.bridgelabz' to org.springframework.boot.logging.LogLevel:
+
+    Property: logging.level.com.bridgelabz
+    Value: "DEBUG  # Debug logs for your application"
+    Origin: class path resource [application.properties] - 22:30
+    Reason: failed to convert java.lang.String to org.springframework.boot.logging.LogLevel (caused by java.lang.IllegalArgumentException: No enum constant org.springframework.boot.logging.LogLevel.DEBUG  # Debug logs for your application)
+
+Action:
+
+Update your application's configuration. The following values are valid:
+
+    DEBUG
+    ERROR
+    FATAL
+    INFO
+    OFF
+    TRACE
+    WARN
+
+2025-02-27T15:57:47.162+05:30  INFO 18236 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Starting EmployeePayrollAppApplication using Java 23.0.2 with PID 18236 (C:\Users\palak\OneDrive\Desktop\Employee Payroll App\employeepayrollapp\target\classes started by palak in C:\Users\palak\OneDrive\Desktop\Employee Payroll App\employeepayrollapp)
+2025-02-27T15:57:47.164+05:30 DEBUG 18236 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-02-27T15:57:47.165+05:30  INFO 18236 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : No active profile set, falling back to 1 default profile: "default"
+2025-02-27T15:57:50.426+05:30  WARN 18236 --- [EmployeePayrollApp] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-27T15:57:50.751+05:30  WARN 18236 --- [EmployeePayrollApp] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2025-02-27T15:57:50.788+05:30  INFO 18236 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Started EmployeePayrollAppApplication in 4.086 seconds (process running for 4.556)
+2025-02-27T15:57:50.791+05:30  INFO 18236 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Payroll App Started in 'null' Environment!
+2025-02-27T15:57:50.793+05:30  INFO 18236 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Employee Payroll DB User is root
