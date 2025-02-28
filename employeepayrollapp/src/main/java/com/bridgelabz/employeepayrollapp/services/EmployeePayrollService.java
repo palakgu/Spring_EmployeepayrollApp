@@ -19,38 +19,35 @@ public class EmployeePayrollService implements IEmployeePayrollService {
     private EmployeePayrollRepository repository;
 
     public List<EmployeePayroll> getAllEmployees() {
-        log.info("Fetching all employees");
         return repository.findAll();
     }
 
-    public EmployeePayroll getEmployeeById(int id) {
-        log.info("Fetching employee with ID: {}", id);
-        return repository.findById(id)
-                .orElseThrow(() -> new EmployeeNotFoundException("Employee with ID " + id + " not found"));
+
+    public EmployeePayroll getEmployeeById(int empId) {
+        return repository.findById(empId)
+                .orElseThrow(() -> new EmployeeNotFoundException("Employee with ID " + empId + " does not exist!"));
     }
 
-    public EmployeePayroll createEmployee(@Valid EmployeePayrollDTO employeeDTO) {
-        log.info("Creating employee: {}", employeeDTO.name);
-        EmployeePayroll employee = new EmployeePayroll(employeeDTO);
-        return repository.save(employee);
+
+    public EmployeePayroll createEmployee(@Valid EmployeePayrollDTO empPayrollDTO) {
+        EmployeePayroll empData = new EmployeePayroll(empPayrollDTO);
+        return repository.save(empData);
     }
+
 
     public EmployeePayroll updateEmployee(int id, @Valid EmployeePayrollDTO newEmployeeDTO) {
         EmployeePayroll existingEmployee = repository.findById(id)
                 .orElseThrow(() -> new EmployeeNotFoundException("Employee with ID " + id + " not found"));
 
-        log.info("Updating employee with ID: {}", id);
         existingEmployee.updateEmployeePayrollData(newEmployeeDTO);
         return repository.save(existingEmployee);
     }
 
+
     public boolean deleteEmployee(int id) {
         if (!repository.existsById(id)) {
-            log.warn("Employee with ID {} not found for deletion", id);
             throw new EmployeeNotFoundException("Employee with ID " + id + " not found");
         }
-
-        log.info("Deleting employee with ID: {}", id);
         repository.deleteById(id);
         return true;
     }

@@ -12,7 +12,7 @@ import java.util.List;
 public class EmployeePayroll {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "employee_id")
     private int employeeId;
 
