@@ -1,0 +1,47 @@
+2025-02-27T16:27:14.355+05:30  INFO 16356 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Starting EmployeePayrollAppApplication using Java 23.0.2 with PID 16356 (C:\Users\palak\OneDrive\Desktop\Employee Payroll App\employeepayrollapp\target\classes started by palak in C:\Users\palak\OneDrive\Desktop\Employee Payroll App\employeepayrollapp)
+2025-02-27T16:27:14.357+05:30 DEBUG 16356 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-02-27T16:27:14.357+05:30  INFO 16356 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : The following 1 profile is active: "dev"
+2025-02-27T16:27:15.530+05:30  WARN 16356 --- [EmployeePayrollApp] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Failed to initialize dependency 'dataSourceScriptDatabaseInitializer' of LoadTimeWeaverAware bean 'entityManagerFactory': Error creating bean with name 'dataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/autoconfigure/sql/init/DataSourceInitializationConfiguration.class]: Unsatisfied dependency expressed through method 'dataSourceScriptDatabaseInitializer' parameter 0: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception with message: Failed to determine a suitable driver class
+2025-02-27T16:27:15.558+05:30 ERROR 16356 --- [EmployeePayrollApp] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (the profiles dev are currently active).
+
+2025-02-27T16:35:39.773+05:30  INFO 3596 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Starting EmployeePayrollAppApplication using Java 23.0.2 with PID 3596 (C:\Users\palak\OneDrive\Desktop\Employee Payroll App\employeepayrollapp\target\classes started by palak in C:\Users\palak\OneDrive\Desktop\Employee Payroll App\employeepayrollapp)
+2025-02-27T16:35:39.775+05:30 DEBUG 3596 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-02-27T16:35:39.776+05:30  INFO 3596 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : The following 1 profile is active: "dev"
+2025-02-27T16:35:43.478+05:30  WARN 3596 --- [EmployeePayrollApp] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-27T16:35:43.816+05:30  WARN 3596 --- [EmployeePayrollApp] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2025-02-27T16:35:43.858+05:30  INFO 3596 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Started EmployeePayrollAppApplication in 4.598 seconds (process running for 5.137)
+2025-02-27T16:35:43.861+05:30  INFO 3596 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Payroll App Started in 'DEV' Environment!
+2025-02-27T16:35:43.862+05:30  INFO 3596 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Employee Payroll DB User is root
+2025-02-27T16:50:59.028+05:30  INFO 16716 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Starting EmployeePayrollAppApplication using Java 23.0.2 with PID 16716 (C:\Users\palak\OneDrive\Desktop\Employee Payroll App\employeepayrollapp\target\classes started by palak in C:\Users\palak\OneDrive\Desktop\Employee Payroll App\employeepayrollapp)
+2025-02-27T16:50:59.031+05:30 DEBUG 16716 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-02-27T16:50:59.032+05:30  INFO 16716 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : The following 1 profile is active: "dev"
+2025-02-27T16:51:03.654+05:30  WARN 16716 --- [EmployeePayrollApp] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-27T16:51:04.022+05:30  WARN 16716 --- [EmployeePayrollApp] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2025-02-27T16:51:04.069+05:30  INFO 16716 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Started EmployeePayrollAppApplication in 5.624 seconds (process running for 6.284)
+2025-02-27T16:51:04.077+05:30  INFO 16716 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Payroll App Started in 'DEV' Environment!
+2025-02-27T16:51:04.079+05:30  INFO 16716 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Employee Payroll DB User is root
+2025-02-27T16:52:10.546+05:30  INFO 6656 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Starting EmployeePayrollAppApplication using Java 23.0.2 with PID 6656 (C:\Users\palak\OneDrive\Desktop\Employee Payroll App\employeepayrollapp\target\classes started by palak in C:\Users\palak\OneDrive\Desktop\Employee Payroll App\employeepayrollapp)
+2025-02-27T16:52:10.547+05:30 DEBUG 6656 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-02-27T16:52:10.548+05:30  INFO 6656 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : The following 1 profile is active: "dev"
+2025-02-27T16:52:14.003+05:30  WARN 6656 --- [EmployeePayrollApp] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-27T16:52:14.322+05:30  WARN 6656 --- [EmployeePayrollApp] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2025-02-27T16:52:14.360+05:30  INFO 6656 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Started EmployeePayrollAppApplication in 4.29 seconds (process running for 4.796)
+2025-02-27T16:52:14.364+05:30  INFO 6656 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Payroll App Started in 'DEV' Environment!
+2025-02-27T16:52:14.371+05:30  INFO 6656 --- [EmployeePayrollApp] [restartedMain] c.b.e.EmployeePayrollAppApplication      : Employee Payroll DB User is root
