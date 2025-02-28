@@ -7,9 +7,9 @@ import lombok.ToString;
 
 import java.time.LocalDate;
 import java.util.List;
-
+@Data
 @ToString
-public class EmployeePayrollDTO {
+public class  EmployeePayrollDTO {
 
     @Pattern(regexp = "^[A-Z]{1}[a-zA-Z]{2,}$", message = "Employee name Invalid")
     public String name;
