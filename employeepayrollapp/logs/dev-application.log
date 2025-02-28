@@ -52,3 +52,10 @@ Consider the following:
 2025-02-28 16:19:38 [restartedMain] INFO  c.b.e.EmployeePayrollAppApplication - Started EmployeePayrollAppApplication in 4.778 seconds (process running for 5.848)
 2025-02-28 16:19:38 [restartedMain] INFO  c.b.e.EmployeePayrollAppApplication - Payroll App Started in 'DEV' Environment!
 2025-02-28 16:19:38 [restartedMain] INFO  c.b.e.EmployeePayrollAppApplication - Employee Payroll DB User is root
+2025-02-28 16:24:07 [restartedMain] INFO  c.b.e.EmployeePayrollAppApplication - Starting EmployeePayrollAppApplication using Java 23.0.2 with PID 12540 (C:\Users\palak\OneDrive\Desktop\Employee Payroll App\employeepayrollapp\target\classes started by palak in C:\Users\palak\OneDrive\Desktop\Employee Payroll App\employeepayrollapp)
+2025-02-28 16:24:07 [restartedMain] DEBUG c.b.e.EmployeePayrollAppApplication - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-02-28 16:24:07 [restartedMain] INFO  c.b.e.EmployeePayrollAppApplication - The following 1 profile is active: "dev"
+2025-02-28 16:24:10 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-28 16:24:11 [restartedMain] INFO  c.b.e.EmployeePayrollAppApplication - Started EmployeePayrollAppApplication in 4.238 seconds (process running for 4.767)
+2025-02-28 16:24:11 [restartedMain] INFO  c.b.e.EmployeePayrollAppApplication - Payroll App Started in 'DEV' Environment!
+2025-02-28 16:24:11 [restartedMain] INFO  c.b.e.EmployeePayrollAppApplication - Employee Payroll DB User is root
