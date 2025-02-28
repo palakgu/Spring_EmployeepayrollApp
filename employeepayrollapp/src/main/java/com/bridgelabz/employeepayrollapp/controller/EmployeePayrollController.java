@@ -1,7 +1,9 @@
 package com.bridgelabz.employeepayrollapp.controller;
 
+import com.bridgelabz.employeepayrollapp.dto.EmployeePayrollDTO;
+import jakarta.validation.Valid;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-
 import com.bridgelabz.employeepayrollapp.model.EmployeePayroll;
 import com.bridgelabz.employeepayrollapp.services.EmployeePayrollService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -27,13 +29,15 @@ public class EmployeePayrollController {
     }
 
     @PostMapping("/create")
-    public EmployeePayroll createEmployee(@RequestBody EmployeePayroll employee) {
-        return service.createEmployee(employee);
+    public ResponseEntity<EmployeePayroll> createEmployee(@Valid @RequestBody EmployeePayrollDTO employeeDTO) {
+        EmployeePayroll employee = service.createEmployee(employeeDTO);
+        return ResponseEntity.ok(employee);
     }
 
     @PutMapping("/update/{id}")
-    public EmployeePayroll updateEmployee(@PathVariable int id, @RequestBody EmployeePayroll employee) {
-        return service.updateEmployee(id, employee);
+    public ResponseEntity<EmployeePayroll> updateEmployee(@PathVariable int id, @Valid @RequestBody EmployeePayrollDTO employeeDTO) {
+        EmployeePayroll updatedEmployee = service.updateEmployee(id, employeeDTO);
+        return ResponseEntity.ok(updatedEmployee);
     }
 
     @DeleteMapping("/delete/{id}")

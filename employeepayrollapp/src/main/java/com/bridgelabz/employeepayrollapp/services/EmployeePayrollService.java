@@ -1,12 +1,14 @@
 package com.bridgelabz.employeepayrollapp.services;
 
 import com.bridgelabz.employeepayrollapp.dto.EmployeePayrollDTO;
+import com.bridgelabz.employeepayrollapp.exception.EmployeeNotFoundException;
 import com.bridgelabz.employeepayrollapp.model.EmployeePayroll;
 import com.bridgelabz.employeepayrollapp.repository.EmployeePayrollRepository;
 import jakarta.validation.Valid;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
 import java.util.List;
 import java.util.Optional;
 
@@ -25,7 +27,7 @@ public class EmployeePayrollService {
 
     public EmployeePayroll getEmployeeById(int id) {
         log.info("Fetching employee with ID: {}", id);
-        return repository.findById(id).orElse(null);
+        return repository.findById(id).orElseThrow(() -> new EmployeeNotFoundException("Employee with ID " + id + " not found"));
     }
 
     public EmployeePayroll createEmployee(@Valid EmployeePayrollDTO employeeDTO) {
@@ -50,12 +52,15 @@ public class EmployeePayrollService {
     }
 
     public boolean deleteEmployee(int id) {
-        if (repository.existsById(id)) {
-            log.info("Deleting employee with ID: {}", id);
-            repository.deleteById(id);
-            return true;
+
+        if (!repository.existsById(id)) {
+            log.warn("Employee with ID {} not found for deletion", id);
+            throw new EmployeeNotFoundException("Employee with ID " + id + " not found");
         }
-        log.warn("Employee with ID {} not found for deletion", id);
-        return false;
+
+        log.info("Deleting employee with ID: {}", id);
+        repository.deleteById(id);
+
+        return true;
     }
 }
